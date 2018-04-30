@@ -1,0 +1,12 @@
+# HTTP (Tomcat) port
+server:
+  port: 8090
+
+# Configure eureka
+eureka:
+  instance:
+   hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  
